@@ -81,7 +81,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'student_management_system.wsgi.application'
+WSGI_APPLICATION = 'ju_sams.wsgi.application'
 
 
 # Database
@@ -90,14 +90,14 @@ WSGI_APPLICATION = 'student_management_system.wsgi.application'
 DATABASES = {
     'default': {
         #=====Enable Only Making Project Live on Heroku====
-        #'ENGINE': 'django.db.backends.sqlite3',
-        #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'ENGINE':'django.db.backends.mysql',
-        'NAME':'student_management_system',
-        'USER':'root',
-        'PASSWORD':'anomaly',
-        'HOST':'localhost',
-        'PORT':'3306'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        #'ENGINE':'django.db.backends.mysql',
+        #'NAME':'student_management_system',
+        #'USER':'root',
+        #'PASSWORD':'anomaly',
+        #'HOST':'localhost',
+        #'PORT':'3306'
     }
 }
 
