@@ -29,7 +29,7 @@ SECRET_KEY = 'so*rai_2(lk7t(yh%de+_kp_c%*r_b9wkga%gyo5tl9_8_r!xx'
 DEBUG = True
 
 #HEROKU LIVE PROJECT LINK
-#ALLOWED_HOSTS = ["ju-sams.herokuapp.com"]
+ALLOWED_HOSTS = ["127.0.0.1","ju-sams.herokuapp.com"]
 #ALLOWED_HOSTS = ["127.0.0.1","]
 
 MEDIA_URL="/media/"
